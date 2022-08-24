@@ -1,8 +1,18 @@
-h5py==2.7.*
-Keras==2.1.*
+h5py
 numpy
 scipy
 six==1.11.*
 git+https://github.com/google/qkeras.git
 grpcio==1.46.0
 hls4ml
+
+# Minimal package to use dcase2020 task2 baseline.
+matplotlib
+PyYAML
+scikit-learn
+librosa
+audioread
+setuptools
+tqdm
+numba
+#tensorflow-gpu
