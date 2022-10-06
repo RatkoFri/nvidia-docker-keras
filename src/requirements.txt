@@ -1,7 +1,8 @@
 h5py
 numpy
 scipy
-six==1.11.*
+#six==1.11.*
+six
 git+https://github.com/google/qkeras.git
 grpcio==1.46.0
 hls4ml
@@ -15,4 +16,9 @@ audioread
 setuptools
 tqdm
 numba
+
+#keyword spotting
+tensorflow_datasets
+urllib3
+pydub
 #tensorflow-gpu
